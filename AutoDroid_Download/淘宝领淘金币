@@ -1,0 +1,20 @@
+
+AUTODROID_DOWNLOAD=sleep(500);
+openApp("com.taobao.taobao");
+sleep(8000);
+try{ clickView(findViewByText('取消')) } catch(e) {}
+clickViewByDesc('领淘金币')
+wait(3000)
+try {
+  wait(1000)
+  try{ clickView(findViewByText('取消'))
+  sleep(1000) } catch(e) {}
+  clickView(findViewByText('立即签到'))
+  try{ clickView(findViewByText('取消')) } catch(e) {}
+  sleep(1000)
+  click('TB1mJFIg')
+} catch(e) {log(e)}
+sleep(1000)
+click(530, 790)
+wait(2000)
+performAction(action_back)
