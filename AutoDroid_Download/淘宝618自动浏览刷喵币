@@ -1,0 +1,13 @@
+AUTODRIOD_DOWNLOAD＝//请在领喵币任务界面用悬浮窗模式运行此脚本
+var view=find('去浏览')
+while(view!=null) {
+click(view)
+wait(3000)
+setScrollDelay(340)
+scroll([537, 1022, 545, 811, 580, 531])
+wait(1000)
+wait(20000)
+back()
+wait(1500)
+view=find('去浏览')
+}
