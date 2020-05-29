@@ -1,4 +1,4 @@
-AUTODRIOD_DOWNLOAD＝//请在领喵币任务界面用悬浮窗模式运行此脚本
+AUTODROID_DOWNLOAD＝//请在领喵币任务界面用悬浮窗模式运行此脚本
 var view=find('去浏览')
 while(view!=null) {
 click(view)
