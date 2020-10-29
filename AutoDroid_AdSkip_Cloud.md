@@ -1,1 +1,1 @@
-AUTODROID_CONTENT=package=com.UCMobile::p=1011
+AUTODROID_CONTENT=package=com.UCMobile::p=1040
